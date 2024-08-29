@@ -3,104 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="TRIBALECHOES.CSS">
+    <meta name="keywords" content="tribal, tribal art, tribal culture, tribal heritage, tribal cuisine, tribal art, tribal events, tribal crafts">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tribal Echoes</title>
 </head>
 <body>
     <header>
-        <div class="upper">
+        <nav class="header__nav">
+            <div class="header__logo">
+                <h4>Tribal Echoes</h4>
+
+                <div class="header__logo-overlay"></div>
+            </div>
+
+            <ul class="header__menu">
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="food.html">Food</a>
+                </li>
+                <li>
+                    <a href="#craft">Crafts</a>
+                </li>
+                <li>
+                    <a href="#about">About Us</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Us</a>
+                </li>
+                <li>
+                    <a href="internal.html"><img src="assets/login.jpg" alt="login"></a>
+                </li>
+
+            </ul>
+            
+            <ul class="header__menu-mobile"> <!--mobile pe dekhne-->
+                <li>
+                    <img src="assets/menu.svg" alt="search" />
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="assets\canva-logo.png" alt="tribal-logo" width="200" height="200">
+            <div class="hero-image__overlay">
+            </div>
         </div>
 
-        <div class="navbar">
-            <div class="nav-logo border">
-                <div class="logo"></div>
+        <div class="hero-content">
+            <div class="hero-content-info">
+                <h1>Explore the Rich Heritage of Tribals</h1>
+                <p>Embark on this Journey with us!</p>
+
+                <div class="hero-content__buttons">
+                    <button class="hero-content__explorecuisines-button"><a href="events.html">Exciting Events!</a></button>
+                    <button class="hero-content__explorecuisines-button"><a href="food.html">Scrumptious cuisine!</a></button>
+                    <button class="hero-content__explorecuisines-button"><a href="#artisans">Artisan's Craft!</a></button>
+                </div>
             </div>
-    
-            <div class="nav-address border">
-                <p class="add-first">  </p>
-                  <div class="add-icon">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p class="add-second">India</p>
-                  </div>
-            </div>
-    
-            <div class="nav-search">
-                <select class="search-select">
-                <option>ALL</option>
-            </select>
-            <input placeholder="Search for Places" class="search-input">
-            <div class="search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-       </div>
-    <div class="nav-singin border">
-        <p><span>Hello , sign</span></p>
-        <p class="nav-second">Account</p>
-    </div>
-      
-    <div class="nav-returns border">
-        <p><span>DISTINATION</span></p>
-        <p class="nav-second">& TRIPS </p>
-    </div>
-    
-    <div class="nav-contact border">
-        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
-        CONTACT US
-    </div>
-    </div>
-
-    
-    <div class="hero-sec">
-        <video width="100%vw" height="100%vw" autoplay loop muted>
-            <source src="video.mp4" type="video/mp4" />
-            <source src="video.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-
-    </div>
-</header>
-
-<div class="shop-section">
-
-    <div class="box1 box"> 
-        <div class="box_content">
-        <h2><a href="events.html"> EVENTS</a> </h2>
-       <div class="box-img" style='background-image: url("night.jpeg")'></div>
-        <P>See More</P>
-    </div>
-    </div>
-
-    <div class="box2 box"> 
-        <div class="box_content">
-            <h2><a href="food.html">SCRUMTIOUS CUISINE </a></h2>
-           <div class="box-img" style='background-image: url("thali.jpeg")'></div>
-            <P>See More</P>
         </div>
-    </div>
 
-    <div class="box3 box">
-        <div class="box_content">
-            <h2> CRAFTS </h2>
-           <div class="box-img" style='background-image: url("ARTS.jpeg")'></div>
-            <P>See More</P>
-    </div>
- </div>
-</div>     
+    </section>
 
-<footer>
-    <div class="back">
-        <a href="ABOUT US">ABOUT US</a>
-        <a href="MAILTO:anuragverma5357@gamil.com">MAIL US</a>
-        <a href="https://www.instagram.com/">INSTAGRAM</a>
-       
-    </div>
+    <section class="about-us" id="about">
+        <div class="about-us__content">
+            <p class="sushi__subtitle">About Us</p>
+            <h3 class="sushi__title">Our mission is to bring true a Tribal Experience to you</h3>
+            <p class="sushi__description">We will continue to provide new and exciting experiences as always!</p>
 
-    <div class="double">
-        BACK TO THE TOP 
-    </div>
-</footer>
+    </section>
 
+    
+
+    <section class="about-us" id="contact">
+        <div class="about-us__content">
+            <h2 class="sushi__title">Contact Us</h2>
+            <br>
+            <h3 class="sushi__subtitle">Address</h3>
+            <br>
+            <address>Tribal Echoes HQ,
+                <br>
+                New York, Manhattan,
+                <br>
+                United States
+            </address>
+            <br>
+            <h3 class="sushi__subtitle">Phone - 1211222004</h3>
+            <br>
+            <h2 style="font-size: 18px; font-weight: 400; font-family: var(--plus-jakarta-sans); opacity: 0.8; letter-spacing: -0.01em;">Email: <a href="mailto:someone@example.com">someone@example.com</a></h2>
+<br>
+<br>
+<br>
+  <footer class="footer flex-between">
+
+    <ul class="footer__nav">
+      <li style="color:#fff0de"><a href="events.html">Events</a></li>
+      <li style="color:#fff0de"><a href="food.html">Food</a></li>
+      <li style="color:#fff0de"><a href="#about">About Us</a></li>
+      <li style="color:#fff0de"><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <ul class="footer__social">
+      <li class="flex-center">
+        <img src="assets/facebook.svg" alt="facebook" />
+      </li>
+
+      <li class="flex-center">
+        <img src="assets/instagram.svg" alt="instagram" />
+      </li>
+
+      <li class="flex-center">
+        <img src="assets/twitter.svg" alt="twitter" />
+      </li>
+    </ul>
+  </footer>
+
+    
     
 </body>
 </html>
