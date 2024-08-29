@@ -73,45 +73,43 @@
 
     </section>
 
-    <section class="trending" id="event">
-        <form align="middle">
-            <div>
-               <label for='searchfor'>Search For:</label>
-               <input type='text' id='searchfor' name='searchfor' required>   <label for='location'>Location:</label>
-               <input type='text' id='location' name='location' required>  <label for'keywords'>Keywords:</label>
-               <input type='text' id='keywords' name='keywords'required> 
-     
+    <div class="form-container">
+        <h2>Search for Events</h2>
+        <form action="#" method="post" style="body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        }" >
+            <div class="form-group">
+                <label for="location">Location</label>
+                <input type="text" id="location" name="location" required>
             </div>
-            <br>
-            
-          
-            <div>
-                 <label for='eventstartdate'>Event Start Date:</label>
-               <input type='text' id='eventstartdate' name='eventstartdate' required>   <label for='eventenddate'>Event End Date:</label>
-               <input type='text' id='eventstartdate' name='eventstartdate' required>
-     
-     
+            <div class="form-group">
+                <label for="start-date">Event Start Date</label>
+                <input type="date" id="start-date" name="start-date" required>
             </div>
-            <br>
-            
-     
-            <div>
-               <label for='events'>Events:</label>
-     
-              
-               <select id='choose' name='choose' required>
-                   <option value="">Select</option>
-                   <option value="upcomingevents">Upcoming Events</option>
-                   <option value="PastEvents">Past Events</option>
-                   <option value="All events">All events</option>
-               </select>
+            <div class="form-group">
+                <label for="end-date">Event End Date</label>
+                <input type="date" id="end-date" name="end-date" required>
             </div>
-            <br>
-            
-            <div>
-               <button type='submit'>Search</button>
-            </div> 
+            <div class="form-group">
+                <label for="events">Events</label>
+                <select id="events" name="events" required>
+                    <option value="" disabled selected>Select an event</option>
+                    <option value="concert">Past</option>
+                    <option value="current">Current</option>
+                    <option value="all">All</option>
+
+                </select>
+            </div>
+            <button type="submit" class="search-button">Search</button>
         </form>
+    </div>
+      
             <br><br><br><br><br><br><br><br>
 
             <section class="trending-sushi">
